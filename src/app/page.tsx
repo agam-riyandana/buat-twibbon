@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
 import RenderForm, { Props } from "./go/_components/render-form";
-import Banner, { Props } from "./go/_components/Banner";
 
 export default function Home({ searchParams }: Readonly<Props>) {
   const [fileName, setFileName] = useState<string | null>(null);
