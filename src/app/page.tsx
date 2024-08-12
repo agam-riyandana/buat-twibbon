@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import RenderForm, { Props } from "./go/_components/render-form";
+import Banner, { Props } from "./go/_components/Banner";
 
 export default function Home({ searchParams }: Readonly<Props>) {
   const [fileName, setFileName] = useState<string | null>(null);
@@ -29,6 +30,7 @@ export default function Home({ searchParams }: Readonly<Props>) {
         <h1 className="text-[22px] sm:text-[36px] font-bold leading-[130%] mb-[18px]">
           <span className="text-primary-500 text-[40px] sm:text-[50px]">
             HUT ke-79
+            <Banner />
             <br />
           </span>{" "}
           Nusantara Baru Indonesia Maju
