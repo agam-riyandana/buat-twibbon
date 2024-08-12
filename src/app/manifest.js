@@ -1,6 +1,6 @@
 export default function manifest() {
   return {
-    name: 'AGAM App',
+    name: 'Bikin Twibbon',
     short_name: 'Next.js App',
     description: 'Next.js App',
     start_url: '/',
@@ -9,7 +9,7 @@ export default function manifest() {
     theme_color: '#fff',
     icons: [
       {
-        src: '/agam.jpg',
+        src: '/',
         sizes: 'any',
         type: 'image/x-icon',
       },
