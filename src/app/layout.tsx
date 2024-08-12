@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Banner from "@/components/Banner";
+import Banner from "@/go/_components/Banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
