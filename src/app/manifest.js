@@ -1,7 +1,7 @@
 export default function manifest() {
   return {
     name: 'Bikin Twibbon',
-    short_name: 'Next.js App',
+    short_name: 'Bikin Twibbon',
     description: 'Next.js App',
     start_url: '/',
     display: 'standalone',
