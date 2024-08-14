@@ -31,7 +31,7 @@ export default function Home({ searchParams }: Readonly<Props>) {
             HUT ke-79
             <br />
           </span>{" "}
-          Nusantara Baru Indonesia Maju
+          Nusantara Baru Indonesia Maju 🇮🇩
         </h1>
         <p className="text-neutral-500 leading-[160%]">
           Mari rayakan HUT RI ke-79 dengan semangat{" "}
